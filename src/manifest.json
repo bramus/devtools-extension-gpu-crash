@@ -1,0 +1,19 @@
+{
+    "name": "POC: DevTools Extension GPU Crash",
+    "action": {},
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "description": "POC to show that there’s a bug …",
+    "permissions": [],
+    "icons": {
+      "512": "icon.png"
+    },
+    "devtools_page": "devtools.html",
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

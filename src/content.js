@@ -1,0 +1,1 @@
+console.log('Open DevTools on a page, use the Elements panel to select an element, and select the POC Pane.');
